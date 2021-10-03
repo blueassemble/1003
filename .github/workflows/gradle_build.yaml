@@ -23,6 +23,7 @@ jobs:
         run: |
           chmod +x ./my-spring-board/gradlew
           ./my-spring-board/gradlew build
+          ls -R
 
       - uses: actions/upload-artifact@v2
         with:
