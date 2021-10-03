@@ -23,4 +23,4 @@ jobs:
         run: |
           chmod +x ./my-spring-board/gradlew
           ./my-spring-board/gradlew build
-          ls -R |grep SNAP
+          ls -R ./my-spring-board/build/
